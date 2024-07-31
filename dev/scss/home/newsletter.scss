@@ -1,0 +1,99 @@
+.newsletter--container {
+    position: relative;
+    height: 100%;
+    padding: 400px 40px 40px 40px;
+
+    .newsletter--background-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+
+        figure {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: top center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .newsletter--overlay {
+       //margin: auto 40px 40px 40px;
+        padding: 40px;
+        position: relative;
+        z-index: 2;
+
+        h2 {
+            font-weight: bold;
+            font-size: 32px;
+            margin: 0 0 14px 0;
+        }
+    }
+
+    .mail-embed {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        border-bottom: 2px solid var(--black);
+        margin: 30px 0 0 0;
+        
+
+        input {
+            display: block;
+            padding: 0;
+            height: 38px;
+            background: transparent;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+            border-bottom: 0;
+            outline: 0;
+        }
+
+        input::placeholder {
+            color: var(--black);
+        }
+
+        input {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 0;  
+        }
+
+        input[type="submit"] {
+            text-align: right;
+            cursor: pointer;
+        }
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .newsletter--container {
+        .mail-embed {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 14px 0;
+
+            input[type="text"] {
+                width: 100%;
+                border-bottom: 2px solid var(--black);
+            }
+
+            input[type="submit"] {
+                text-align: right;
+            }
+        }
+    }
+
+}

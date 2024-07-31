@@ -1,0 +1,101 @@
+.mobile-overlay {
+    position: fixed;
+    top: 0;
+    right: -100vw;
+    bottom: 0;
+    left: 100vw;
+    width: 100vw;
+    float: left;
+    background: var(--black);
+    color: var(--orange);
+    z-index: 999999999;
+    transition: all 0.3s ease-in-out;
+
+    .mobile-overlay-row {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    .mobile-overlay-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 58px;
+        line-height: 1;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+
+    .menu {
+        li {
+            margin: 0 0 34px 0;
+            text-align: center;
+        }
+
+        a {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .menu-item-has-children a {
+            pointer-events: none;
+            position: relative;
+        }
+
+        .menu-item-has-children a:after {
+            content: url("data:image/svg+xml,%3Csvg width='24' height='14' viewBox='0 0 20 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ffffff' stroke-width='2px' d='M1 1L10 10L19 1' /%3E%3C/svg%3E");
+            width: 22px;
+            height: 22px;
+            margin-left: 8px;
+            top: -6px;
+            position: relative;
+        }
+
+        .menu-item-has-children ul {
+            display: none;
+            flex-direction: column;
+            margin-top: 40px;
+
+            a {
+                color: var(--white);
+                font-size: 40px;
+            }
+
+            a:after {
+                display: none;
+            }
+        }
+    }
+
+    .social-icons {
+        margin: 0 0 20px 0;
+
+        ul {
+            gap: 12px !important;
+            justify-content: center;
+        }
+
+        svg {
+            width: 30px !important;
+            height: 30px !important;
+        }
+
+        svg path {
+            fill: var(--white) !important;
+        }
+    }   
+
+}

@@ -1,0 +1,83 @@
+@import './reset.scss';
+
+:root {
+    --white: #ffffff;
+    --orange: #E96424;
+    --black: #000000;
+
+    --side-padding: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    :root {
+        --side-padding: 20px;
+    }
+
+}
+
+body {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+body.admin-bar header {
+    top: 32px;
+}
+
+body.admin-bar main {
+    padding-top: 52px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pre-order-link {
+    cursor: pointer;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.tour-dates--section-title {
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+}
+
+
+/* Bandsintown */
+.bandsintown-embed.tour {
+    padding: 0 var(--side-padding);
+}
+
+.bit-widget .bit-upcoming-events {
+    margin: 0 0 20px 0 !important;
+}
+
+.bit-upcoming-events-show-all-button {
+    margin: 0 !important;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+@import './navbar.scss';
+@import './preorder-modal.scss';
+@import './home/hero.scss';
+@import './home/singles.scss';
+@import './home/latest-video.scss';
+@import './home/tours.scss';
+@import './home/newsletter.scss';
+@import './compact-header.scss';
+@import './contact.scss';
+@import './navbar--mobile.scss';

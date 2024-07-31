@@ -1,0 +1,1 @@
+.splash-page{background:var(--black);width:100vw;height:100vh;display:flex;align-items:center;justify-content:center;flex-direction:column}.splash-page .logo img{width:100%;max-width:200px}.splash-page .disclaimer{color:var(--white);padding:20px 0}.splash-page .socials{padding:20px 0}.splash-page .socials path{fill:var(--white)}

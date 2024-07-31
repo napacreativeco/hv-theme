@@ -1,0 +1,26 @@
+.splash-page {
+    background: var(--black);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .logo img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .disclaimer {
+        color: var(--white);
+        padding: 20px 0;
+    }
+
+    .socials {
+        padding: 20px 0;
+        path {
+            fill: var(--white);
+        }
+    }
+}
