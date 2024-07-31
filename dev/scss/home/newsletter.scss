@@ -40,10 +40,10 @@
     }
 
     .mail-embed {
-        display: grid;
-        grid-template-columns: 2fr 2fr 1fr;
-        border-bottom: 2px solid var(--black);
-        margin: 30px 0 0 0;
+        // display: grid;
+        // grid-template-columns: 2fr 2fr 1fr;
+        // border-bottom: 2px solid var(--black);
+        // margin: 30px 0 0 0;
         
 
         input {
@@ -73,6 +73,13 @@
             cursor: pointer;
         }
 
+    }
+
+    .sib_signup_box_inside_3 {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        border-bottom: 2px solid var(--black);
+        margin: 30px 0 0 0;
     }
 }
 
