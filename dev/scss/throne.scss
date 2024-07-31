@@ -28,6 +28,12 @@ body.admin-bar main {
     padding-top: 52px;
 }
 
+@media screen and (max-width: 767px) {
+    body.admin-bar main {
+        padding-top: 46px;
+    }
+}
+
 a {
     text-decoration: none;
     color: inherit;
