@@ -21,6 +21,10 @@
         align-items: flex-end;
         width: 100%;
 
+        a {
+            text-decoration: none !important;
+        }
+
         .single--title {
             font-size: 32px;
             font-weight: bold;
