@@ -39,6 +39,17 @@
         margin: 0 !important;
         font-weight: bold;
         font-size: 18px;
+
+        a {
+            text-decoration: none !important;
+        }
+    }
+
+    .social-media--pill:hover {
+        a {
+            background: var(--black);
+            color: var(--orange);
+        }
     }
 
 }
