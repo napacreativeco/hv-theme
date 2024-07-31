@@ -84,6 +84,10 @@ body.admin-bar .hero--columns {
     .hero--presave-link {
         font-weight: bold;
         text-transform: uppercase;
+        
+        a {
+            text-decoration: none !important;
+        }
     }
 
 }
