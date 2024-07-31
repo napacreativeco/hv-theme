@@ -20,7 +20,7 @@
 <script>
 	/* Sub-menu */
 	jQuery('.menu-item-has-children').on('mouseenter', function() {
-		jQuery(this).find('.sub-menu').css('display', 'flex');
+		jQuery(this).find('.sub-menu').css('display', 'grid');
 	});
 	jQuery('.sub-menu').on('mouseleave', function() {
 		jQuery(this).css('display', 'none');

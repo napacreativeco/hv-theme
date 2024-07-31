@@ -89,6 +89,7 @@ header {
         ul.sub-menu {
             display: none;
             flex-direction: column;
+            grid-template-columns: 1fr;
             position: absolute;
             top: 100%;
             background: var(--white);
