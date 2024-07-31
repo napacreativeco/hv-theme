@@ -88,6 +88,11 @@
     .newsletter--container {
         padding: 120px 20px 20px 20px;
 
+
+        .newsletter--overlay {
+            padding: 20px;
+        }
+
         .mail-embed {
 
             input[type="email"] {
