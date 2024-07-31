@@ -73,6 +73,10 @@
 </script>
 -->
 
+<div class="floating-socials">
+	<?php get_template_part('template-parts/social-media-icons'); ?>
+</div>
+
 <?php wp_footer(); ?>
 
 </body>

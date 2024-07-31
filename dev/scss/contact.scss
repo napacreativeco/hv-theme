@@ -48,9 +48,15 @@
     
     .contact--item {
 
+        .contact--type {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
         .contact--value {
             flex-direction: column;
             gap: 4px;
+            font-size: 12px;
         }
     }
 }
