@@ -87,10 +87,7 @@
     
     .newsletter--container {
         .mail-embed {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 14px 0;
+
 
             input[type="text"] {
                 width: 100%;
@@ -100,6 +97,13 @@
             input[type="submit"] {
                 text-align: right;
             }
+        }
+
+        .sib_signup_box_inside_3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 14px 0;
         }
     }
 
