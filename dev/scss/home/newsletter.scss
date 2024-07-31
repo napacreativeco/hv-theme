@@ -60,6 +60,10 @@
             color: var(--black);
         }
 
+        input:focus {
+            background: transparent;
+        }
+
         input::placeholder {
             color: var(--black);
         }
