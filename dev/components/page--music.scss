@@ -141,6 +141,10 @@ li.release-card {
             gap: 3px;
         }
 
+        details {
+            border-bottom: 1px solid var(--black);
+        }
+
         summary {
             font-size: 10px;
             padding: 0 0 0px 0;
@@ -160,11 +164,11 @@ li.release-card {
             flex-direction: row;
             align-items: center;
             flex-wrap: wrap;
-            gap: 4px 4px;
+            gap: 4px 2px;
 
             a {
                 font-size: 12px;
-                padding: 2px 6px;
+                padding: 1px 6px;
             }
         }
 
