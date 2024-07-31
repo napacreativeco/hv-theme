@@ -68,7 +68,7 @@
 			</div>
 
 			<div class="logo">
-				<img src="http://highvis.local/wp-content/uploads/2024/07/highvis-logo-white.png" alt="High Vis">
+				<img src="https://highvisuk.com/wp-content/uploads/2024/07/highvis-logo-white.png" alt="High Vis">
 			</div>
 
 			<div class="menu">
