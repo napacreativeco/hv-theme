@@ -59,13 +59,14 @@
 
         .contact--type {
             font-weight: bold;
-            font-size: 24px;
+            font-size: 20px;
         }
 
         .contact--value {
             flex-direction: column;
             gap: 4px;
             font-size: 12px;
+            white-space: nowrap;
         }
     }
 
