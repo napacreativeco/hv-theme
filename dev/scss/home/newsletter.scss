@@ -88,6 +88,10 @@
     .newsletter--container {
         .mail-embed {
 
+            input[type="email"] {
+                width: 100%;
+                border-bottom: 2px solid var(--black);
+            }
 
             input[type="text"] {
                 width: 100%;
