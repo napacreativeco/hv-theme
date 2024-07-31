@@ -9,9 +9,6 @@ get_header('splash');
     <div class="logo">
         <img src="https://highvisuk.com/wp-content/uploads/2024/07/highvis-logo-white.png" alt="High Vis" />
     </div>
-    <div class="disclaimer">
-        <p>Come back tomorrow..</p>
-    </div>
     <div class="socials">
         <?php get_template_part('template-parts/social-media-icons'); ?>
     </div>
