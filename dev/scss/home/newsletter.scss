@@ -110,6 +110,10 @@ form#sib_signup_form_3 p.sib-alert-message-success {
     bottom: -17px;
 }
 
+form#sib_signup_form_3 p.sib-alert-message {
+    padding: 0px !important;
+}
+
 @media screen and (max-width: 767px) {
     
     .newsletter--container {
