@@ -96,7 +96,7 @@ body.admin-bar .hero--columns {
 @media screen and (max-width: 767px) {
     
     .hero--columns {
-        height: 80svh;
+        height: calc(100svg - 54px);
         display: grid !important;
         grid-template-columns: 1fr !important;
         flex-wrap: wrap !important;
@@ -117,11 +117,12 @@ body.admin-bar .hero--columns {
 
         .hero--right-mid {
             font-weight: bold;
-            font-size: 3.8vw;
+            font-size: 5vw;
         }
 
         .hero--right-bottom {
-            gap: 0px;
+            gap: 8px;
+            padding: 0 0 20px 0;
         }
 
         svg.dais-icon {
