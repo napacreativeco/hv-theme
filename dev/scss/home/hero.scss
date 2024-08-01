@@ -6,7 +6,7 @@ body.admin-bar .hero--columns {
     display: flex;
     align-items: center;
     gap: 0px;
-    height: calc(100svh - 36px);
+    height: calc(100svh - 54px);
 
     h2 {
         font-weight: bold;
@@ -62,9 +62,9 @@ body.admin-bar .hero--columns {
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        gap: 20px;
+        gap: 10px;
         text-align: center;
-        padding: 0 0 20px 0;
+        padding: 0 0 40px 0;
     }
 
     svg.dais-icon {
